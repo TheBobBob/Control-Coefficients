@@ -1,1 +1,2 @@
-# FluxRETAP-BMCA
+# Control Coefficients 
+Used a random walk algorithm to explore parameter values around parameter values that "work" and are within the acceptable range of parameter values that still produce flux control coefficients. Created a histogram of all of the FCC coefficients, and created a bar chart of the associated parameter values (as well as JSON file with the parameter values). Took all functioning parameter values and performed PCA to reduce the dimensionality. Examined loading values to find out which parameters contributed the most to the parameter sets that worked, showing which parameters are most important for determining the stability of the system. 
